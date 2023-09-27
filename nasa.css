@@ -1,0 +1,24 @@
+img {
+    position: relative;
+    display: inline-block;
+    margin-top: 35pt;
+}
+
+h1 {
+    position: absolute;
+    top: 150pt;
+    left: 280pt;
+    
+
+font-size: 40pt;
+color: white;
+}
+
+.sub_header {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 10pt;
+    border: 1pt solid #ccc;
+    margin: 0pt 20pt
+}
