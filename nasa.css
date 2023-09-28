@@ -1,24 +1,58 @@
 img {
     position: relative;
-    display: inline-block;
+    display: block;
     margin-top: 35pt;
+    margin-bottom: 20pt;
 }
 
 h1 {
     position: absolute;
     top: 150pt;
     left: 280pt;
-    
-
 font-size: 40pt;
 color: white;
 }
 
-.sub_header {
+.Social_Media {
+    display: inline-block;
+    text-align: left;
+    font-size: 10pt;
+    width: 270pt;
+    height: 324pt;
+    padding: 5pt;
+    border: 1pt solid #ccc;
+    margin: 0pt 20pt;
+}
+
+.Office_INFO {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    font-size: 10pt;
+    width: 270pt;
+    height: 324pt;
     padding: 10pt;
     border: 1pt solid #ccc;
-    margin: 0pt 20pt
+    margin: 0pt 20pt;
 }
+
+.Contact_Us {
+    display: inline-block;
+    text-align: center;
+    font-size: 10pt;
+    width: 270pt;
+    height: 324pt;
+    padding: 10pt;
+    border: 1pt solid #ccc;
+    margin: 0pt 20pt;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #adaaaa;
+  }
+
+  p {
+    border: 1pt solid black;
+border-radius: 5pt;
+  }
